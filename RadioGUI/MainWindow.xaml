@@ -1,0 +1,52 @@
+﻿<Window x:Class="RadioGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RadioGUI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="800">
+    <Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="100"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="100"/>
+			<RowDefinition Height="*"/>
+			<RowDefinition Height="30"/>
+			<RowDefinition Height="*"/>
+			<RowDefinition Height="100"/>
+		</Grid.RowDefinitions>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="40"/>
+			<ColumnDefinition Width="*"/>
+			<ColumnDefinition Width="*"/>
+			<ColumnDefinition Width="*"/>
+			<ColumnDefinition Width="*"/>
+			<ColumnDefinition Width="*"/>
+			<ColumnDefinition Width="*"/>
+			<ColumnDefinition Width="*"/>
+			<ColumnDefinition Width="*"/>
+			<ColumnDefinition Width="*"/>
+			<ColumnDefinition Width="40"/>
+		</Grid.ColumnDefinitions>
+
+		<TextBlock x:Name="RadioReadout" FontSize="72" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="9"/>
+		<Button x:Name="ButtonOne" Content="1" FontSize ="36" Grid.Row="3" Grid.Column="1" Click="Button_Click"/>
+		<Button x:Name="ButtonTwo" Content="2" FontSize ="36" Grid.Row="3" Grid.Column="3" Click="Button_Click"/>
+		<Button x:Name="ButtonThree" Content="3" FontSize ="36" Grid.Row="3" Grid.Column="5" Click="Button_Click"/>
+		<Button x:Name="ButtonFour" Content="4" FontSize ="36" Grid.Row="3" Grid.Column="7" Click="Button_Click"/>
+
+		<Button x:Name="ButtonOn" Content="On" FontSize ="36" Grid.Row="5" Grid.Column="1" Click="Button_Click"/>
+		<Button x:Name="ButtonOff" Content="Off" FontSize ="36" Grid.Row="5" Grid.Column="3" Click="Button_Click"/>
+		<Button x:Name="ButtonPlay" Content="Play" FontSize ="36" Grid.Row="5" Grid.Column="5" Click="Button_Click"/>
+		<Button x:Name="ButtonPlus" Content="+" FontSize ="36" Grid.Row="3" Grid.Column="9" Click="Button_Click"/>
+		<Button x:Name="ButtonMinus" Content="-" FontSize ="36" Grid.Row="5" Grid.Column="9" Click="Button_Click"/>
+
+		<Ellipse x:Name="DisplayLight" Width="40" Height ="40" Grid.Row="5" Grid.Column="7"/>
+
+		<TextBlock x:Name="VolumeReadout" Grid.Row="4" Grid.Column="7"/>
+
+		<MediaElement x:Name="mediaElement" LoadedBehavior="Manual"/>
+	</Grid>
+	
+</Window>

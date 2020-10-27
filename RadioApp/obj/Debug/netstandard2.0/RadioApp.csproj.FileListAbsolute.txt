@@ -1,0 +1,9 @@
+C:\Users\rober\OneDrive\Documents\Sparta\CSharpOOP\Projects\RadioAppStarterCode\RadioApp\bin\Debug\netstandard2.0\RadioApp.deps.json
+C:\Users\rober\OneDrive\Documents\Sparta\CSharpOOP\Projects\RadioAppStarterCode\RadioApp\bin\Debug\netstandard2.0\RadioApp.dll
+C:\Users\rober\OneDrive\Documents\Sparta\CSharpOOP\Projects\RadioAppStarterCode\RadioApp\bin\Debug\netstandard2.0\RadioApp.pdb
+C:\Users\rober\OneDrive\Documents\Sparta\CSharpOOP\Projects\RadioAppStarterCode\RadioApp\obj\Debug\netstandard2.0\RadioApp.csprojAssemblyReference.cache
+C:\Users\rober\OneDrive\Documents\Sparta\CSharpOOP\Projects\RadioAppStarterCode\RadioApp\obj\Debug\netstandard2.0\RadioApp.AssemblyInfoInputs.cache
+C:\Users\rober\OneDrive\Documents\Sparta\CSharpOOP\Projects\RadioAppStarterCode\RadioApp\obj\Debug\netstandard2.0\RadioApp.AssemblyInfo.cs
+C:\Users\rober\OneDrive\Documents\Sparta\CSharpOOP\Projects\RadioAppStarterCode\RadioApp\obj\Debug\netstandard2.0\RadioApp.csproj.CoreCompileInputs.cache
+C:\Users\rober\OneDrive\Documents\Sparta\CSharpOOP\Projects\RadioAppStarterCode\RadioApp\obj\Debug\netstandard2.0\RadioApp.dll
+C:\Users\rober\OneDrive\Documents\Sparta\CSharpOOP\Projects\RadioAppStarterCode\RadioApp\obj\Debug\netstandard2.0\RadioApp.pdb

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "RadioGUI/1.0.0": {
+        "dependencies": {
+          "RadioApp": "1.0.0"
+        },
+        "runtime": {
+          "RadioGUI.dll": {}
+        }
+      },
+      "RadioApp/1.0.0": {
+        "runtime": {
+          "RadioApp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RadioGUI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RadioApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
